@@ -1,82 +1,74 @@
 {
     "images": [
         {
-            "imgPath": "img/places/australia.jpg",
-            "imgLocation": "Australia",
-            "description": "Loch Ard Gorge",
-            "date": "01/01/2016"
+            "imgPath": "img/covers/pinata.jpg",
+            "name": "Pinata",
+            "artist": "Freddie Gibbs",
+            "date": "March 18, 2024",
+            "length": "60:13"
         },
         {
-            "imgPath": "img/places/austria.jpg",
-            "imgLocation": "Austria",
-            "description": "Austrian chapel",
-            "date": "01/02/2016"
+            "imgPath": "img/covers/blonde.jpeg",
+            "name": "Blonde",
+            "artist": "Frank Ocean",
+            "date": "08/20/16",
+            "length": "60:08"
         },
         {
-            "imgPath": "img/places/france.jpg",
-            "imgLocation": "Paris",
-            "description": "Eiffel Tower",
-            "date": "01/03/2016"
+            "imgPath": "img/covers/astro.jpg",
+            "name": "Astroworld",
+            "artist": "Travis Scott",
+            "date": "08/03/18",
+            "length": "58:33"
         },
         {
-            "imgPath": "img/places/greece.jpg",
-            "imgLocation": "Greece",
-            "description": "Greek coastline",
-            "date": "01/04/2016"
+            "imgPath": "img/covers/college dropout.jpg",
+            "name": "The College Dropout",
+            "artist": "Kanye West",
+            "date": "02/10/04",
+            "length": "76:00"
         },
         {
-            "imgPath": "img/places/hungary.jpg",
-            "imgLocation": "Hungary",
-            "description": "Budapest skyline",
-            "date": "01/05/2016"
+            "imgPath": "img/covers/ds2.jpg",
+            "name": "DS2",
+            "artist": "Future",
+            "date": "07/17/15",
+            "length": "60:33"
         },
         {
-            "imgPath": "img/places/india.jpg",
-            "imgLocation": "India",
-            "description": "Taj Mahal",
-            "date": "01/06/2016"
+            "imgPath": "img/covers/awaken my love.jpg",
+            "name": "Awaken, My Love",
+            "artist": "Childish Gambino",
+            "date": "12/02/16",
+            "length": "49:01"
         },
         {
-            "imgPath": "img/places/italy.jpg",
-            "imgLocation": "Italy",
-            "description": "Venice",
-            "date": "01/07/2016"
+            "imgPath": "img/covers/asap.jpg",
+            "name": "At Long Last A$AP",
+            "artist": "A$AP Rocky",
+            "date": "05/26/15",
+            "length": "66:09"
         },
         {
-            "imgPath": "img/places/japan.jpg",
-            "imgLocation": "Japan",
-            "description": "Hirosaki Castle",
-            "date": "01/08/2016"
+            "imgPath": "img/covers/good kid.jpg",
+            "name": "Good Kid Maad City",
+            "artist": "Kendrick Lamar",
+            "date": "10/22/12",
+            "length": "68:23"
         },
         {
-            "imgPath": "img/places/korea.jpg",
-            "imgLocation": "South Korea",
-            "description": "Seoul",
-            "date": "01/09/2016"
+            "imgPath": "img/covers/alfredo.webp",
+            "name": "Alfredo",
+            "artist": "Freddie Gibbs",
+            "date": "05/29/20",
+            "length": "35:05"
         },
         {
-            "imgPath": "img/places/norway.jpg",
-            "imgLocation": "Norway",
-            "description": "Countryside mountains",
-            "date": "01/10/2016"
-        },
-        {
-            "imgPath": "img/places/switzerland.jpg",
-            "imgLocation": "Switzerland",
-            "description": "Lake castle",
-            "date": "01/11/2016"
-        },
-        {
-            "imgPath": "img/places/thailand.jpg",
-            "imgLocation": "Thailand",
-            "description": "Beachline",
-            "date": "01/12/2016"
-        },
-        {
-            "imgPath": "img/places/turkey.jpg",
-            "imgLocation": "Turkey",
-            "description": "Istanbul",
-            "date": "01/13/2016"
+            "imgPath": "img/covers/forever story.jpg",
+            "name": "The Forever Story",
+            "artist": "JID",
+            "date": "08/26/22",
+            "length": "66:32"
         }
-  ]
+    ]
 }
