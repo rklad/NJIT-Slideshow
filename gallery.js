@@ -16,9 +16,13 @@ $('.moreIndicator').on('click', function() {
   $('.details').slideToggle();
 })
   // Select the "Next Photo" button and add a click event to call showNextPhoto
-
+  $('#nextPhoto').on('click', function() {
+    showNextPhoto()
+  })
   // Select the "Previous Photo" button and add a click event to call showPrevPhoto
-
+  $('#prevPhoto').on('click', function() {
+    showPrevPhoto()
+  })
   // Call fetchJSON() to load the initial set of images
   fetchJSON()
 })
@@ -58,13 +62,24 @@ function swapPhoto () {
 // Advances to the next photo, loops to the first photo if the end of array is reached
 function showNextPhoto () {
   // Increment mCurrentIndex and call swapPhoto()
+  mCurrentIndex++
+  if (mCurrentIndex == 10) {
+    mCurrentIndex = 0;
+  }
+  swapPhoto()
   // Ensure it loops back to the beginning if mCurrentIndex exceeds array length
 }
 
 // Goes to the previous photo, loops to the last photo if mCurrentIndex goes negative
 function showPrevPhoto () {
   // Decrement mCurrentIndex and call swapPhoto()
+  mCurrentIndex--
+  if (mCurrentIndex == -1) {
+    mCurrentIndex = 9;
+  }
+  swapPhoto()
   // Ensure it loops to the end if mCurrentIndex is less than 0
+  
 }
 
 // Starter code for the timer function
