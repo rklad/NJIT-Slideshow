@@ -11,7 +11,10 @@ $(document).ready(() => {
   // Select the moreIndicator button and add a click event to:
   // - toggle the rotation classes (rot90 and rot270)
   // - slideToggle the visibility of the .details section
-
+$('.moreIndicator').on('click', function() {
+  $('.moreIndicator').toggleClass('rot90 rot270');
+  $('.details').slideToggle();
+})
   // Select the "Next Photo" button and add a click event to call showNextPhoto
 
   // Select the "Previous Photo" button and add a click event to call showPrevPhoto
@@ -25,8 +28,13 @@ function fetchJSON () {
   $.ajax({
     type: "GET",
     url: mUrl,
+    dataType: "json",
     success: function (data) {
       mImages = data.images;
+      swapPhoto()
+    }, 
+    error: function () {
+      console.log("Connection error")
     }
   });
   // Use $.ajax here to request the JSON data from mUrl
@@ -37,6 +45,12 @@ function fetchJSON () {
 // Function to swap and display the next photo in the slideshow
 function swapPhoto () {
   // Access mImages[mCurrentIndex] to update the image source and details
+  let currentImg = mImages[mCurrentIndex]
+  $('#photo').attr("src", currentImg.imgPath)
+  $('.name').text(`Album: ${currentImg.name}`)
+  $('.artist').text(`Artist: ${currentImg.artist}` )
+  $('.year').text(`Release Date: ${currentImg.date}`)
+  $('.length').text(`Album Length ${currentImg.length}`)
   // Update the #photo element's src attribute with the current image's path
   // Update the .location, .description, and .date elements with the current image's details
 }
