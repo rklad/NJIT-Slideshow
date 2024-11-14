@@ -54,7 +54,7 @@ function swapPhoto () {
   $('.name').text(`Album: ${currentImg.name}`)
   $('.artist').text(`Artist: ${currentImg.artist}` )
   $('.year').text(`Release Date: ${currentImg.date}`)
-  $('.length').text(`Album Length ${currentImg.length}`)
+  $('.length').text(`Album Length: ${currentImg.length}`)
   // Update the #photo element's src attribute with the current image's path
   // Update the .location, .description, and .date elements with the current image's details
 }
